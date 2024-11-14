@@ -1,66 +1,70 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Galleria Website Revamp
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Galleria is a globally recognized art gallery specializing in a diverse range of paintings. As part of its effort to enhance user experience and brand visibility, Galleria seeks a complete redesign of its website. This project will transform the website's look and feel to create a user-friendly and visually appealing platform, showcasing the gallery's paintings and categorizing them by painting style, surface, and color type.
 
-## About Laravel
+## Note
+This Project is build with Laravel framework, MySQL as database, and XAMPP as local server.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Project Overview
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+This project involves redesigning the Galleria website to provide a cohesive, professional, and user-centric experience for visitors. The new website will:
+- Feature an engaging and visually appealing home page.
+- Include navigation links, organized gallery sections, and detailed painting information.
+- Allow users to explore different types of paintings based on painting styles, surfaces, and colors.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Requirement Specifications
 
-## Learning Laravel
+The following specifications outline the required features and functionalities of the website:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+1. **Home Page**  
+   - Include a well-organized layout, intuitive navigation, high-quality graphics, and a suitable logo.
+   - Provide links to essential sections: Home, About Us, Gallery, Contact Information, and Paintings.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+2. **User-Friendly Interface**  
+   - Ensure a visually consistent design and harmonious color scheme.
+   - Create a user-centric design with accessible and smooth navigation.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+3. **Painting Categories**  
+   - Showcase various painting types, such as:
+     - **Abstract Paintings**
+     - **Landscape Paintings**
+     - **Flower Paintings**
+     - **Nature Paintings**
+     - **Figurative Paintings**
+     - **Religious Paintings**
 
-## Laravel Sponsors
+4. **Surface-Based Categorization**  
+   - Further categorize paintings based on their surface, such as:
+     - Acrylic, Canvas, Paper, OHP Sheet, Fabric, and more.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+5. **Color Type Categorization**  
+   - Group paintings by color types, including:
+     - Acrylic Color, Ballpoint Pen, Charcoal, Oil Color, Water Color, Poster Color, Enamel Color, Ink Color, and others.
 
-### Premium Partners
+6. **Painting Details & Document Export**  
+   - Display detailed information about each selected painting.
+   - Allow users to save painting details as a Word document for offline access.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+7. **Additional Sections**  
+   - **Gallery**: A visually appealing gallery displaying all paintings with filters and search options.
+   - **FAQs**: Provide answers to commonly asked questions.
+   - **Site Map**: Improve user navigation by providing a complete site layout.
 
-## Contributing
+## Technical Requirements
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+1. **Navigation & User Experience**  
+   - Smooth navigation and consistent user interface across the site.
+   - Enable effortless transitions between pages and sections.
 
-## Code of Conduct
+2. **Backend & Database Structure**  
+   - Implement robust backend support to handle various painting categories, surfaces, and color types.
+   - Maintain detailed information for each painting in a structured database.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Installation
 
-## Security Vulnerabilities
+To set up the project locally:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YourUsername/Galleria-Website-Revamp.git
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
