@@ -60,11 +60,71 @@ The following specifications outline the required features and functionalities o
    - Implement robust backend support to handle various painting categories, surfaces, and color types.
    - Maintain detailed information for each painting in a structured database.
 
-## Installation
+## Setup on local machine
 
-To set up the project locally:
+1. Install Laravel Dependencies
+Ensure you have Composer installed. If not, download it from Composer's official website.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YourUsername/Galleria-Website-Revamp.git
+Run the following command to install the required Laravel PHP dependencies:
+composer install
+
+2. Configure Database
+Ensure XAMPP is running and MySQL is enabled. Open phpMyAdmin and create a new database for the project (e.g., galleria).
+Download XAMPP from the official website: XAMPP Download
+Follow the installation instructions for your operating system (Windows, macOS, or Linux).
+Once installed, launch the XAMPP Control Panel and start Apache and MySQL to run the local server and database.
+You can access phpMyAdmin (the web interface for MySQL) at: http://localhost/phpmyadmin.
+Create a new database for the project (e.g., galleria) in phpMyAdmin.
+
+4. Start the Local Server
+Use Laravel's built-in development server to serve the application:
+
+php artisan serve
+The website will be accessible at http://localhost:8000.
+
+## Libraries Setup Instructions
+To set up the project locally, ensure you have the following components installed:
+
+1. Install XAMPP (Local Server & MySQL Database)
+XAMPP is required to run the local server and MySQL database. Follow these steps to install XAMPP:
+
+Download XAMPP from the official website: XAMPP Download
+Follow the installation instructions for your operating system (Windows, macOS, or Linux).
+Once installed, launch the XAMPP Control Panel and start Apache and MySQL to run the local server and database.
+You can access phpMyAdmin (the web interface for MySQL) at: http://localhost/phpmyadmin.
+Create a new database for the project (e.g., galleria) in phpMyAdmin.
+Make sure the XAMPP configuration is the same as XAMPP Configuration folder from this repository.
+
+2. Install Composer (PHP Dependency Manager)
+Composer is a dependency manager for PHP that helps to manage project libraries. Follow these steps to install Composer:
+
+Download Composer from the official website: Composer Download
+
+Verify the installation by running the following command in your terminal:
+
+composer --version
+
+3. Install Node.js & NPM (For Frontend Assets)
+
+Download Node.js from the official website: Node.js Download
+Follow the installation instructions for your operating system.
+Verify the installation by running the following commands in your terminal:
+
+node --version
+npm --version
+
+4. Install Laravel
+If you haven't already installed Laravel globally, run the following command:
+
+composer global require laravel/installer
+Navigate to the project directory, then install the Laravel dependencies:
+
+composer install
+
+5. Start the Local Laravel Server
+After setting everything up, you can start the Laravel development server:
+
+php artisan serve
+The website will be available at http://localhost:8000.
+
 
